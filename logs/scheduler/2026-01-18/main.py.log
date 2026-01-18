@@ -3509,3 +3509,117 @@ Traceback (most recent call last):
 ImportError: cannot import name 'RealdDictCursor' from 'psycopg2.extras' (/home/airflow/.local/lib/python3.10/site-packages/psycopg2/extras.py)
 [2026-01-18T13:47:25.570+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
 [2026-01-18T13:47:25.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.085 seconds
+[2026-01-18T13:48:37.525+0000] {processor.py:161} INFO - Started process (PID=48) to work on /opt/airflow/dags/main.py
+[2026-01-18T13:48:37.531+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T13:48:37.535+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:48:37.534+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T13:48:37.623+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T13:48:37.728+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:48:37.726+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6, in <module>
+    from datawarehouse.dwh import staging_table, core_table
+  File "/opt/airflow/dags/datawarehouse/dwh.py", line 1, in <module>
+    from datawarehouse.data_utils import get_conn_cursor,close_conn_cursor,create_schema,create_table,get_video_ids
+  File "/opt/airflow/dags/datawarehouse/data_utils.py", line 2, in <module>
+    from psycopg2.extras import RealdDictCursor
+ImportError: cannot import name 'RealdDictCursor' from 'psycopg2.extras' (/home/airflow/.local/lib/python3.10/site-packages/psycopg2/extras.py)
+[2026-01-18T13:48:37.729+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T13:48:37.761+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.245 seconds
+[2026-01-18T13:49:07.823+0000] {processor.py:161} INFO - Started process (PID=55) to work on /opt/airflow/dags/main.py
+[2026-01-18T13:49:07.824+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T13:49:07.827+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:49:07.826+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T13:49:07.859+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T13:49:07.872+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:49:07.871+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6, in <module>
+    from datawarehouse.dwh import staging_table, core_table
+  File "/opt/airflow/dags/datawarehouse/dwh.py", line 1, in <module>
+    from datawarehouse.data_utils import get_conn_cursor,close_conn_cursor,create_schema,create_table,get_video_ids
+  File "/opt/airflow/dags/datawarehouse/data_utils.py", line 2, in <module>
+    from psycopg2.extras import RealdDictCursor
+ImportError: cannot import name 'RealdDictCursor' from 'psycopg2.extras' (/home/airflow/.local/lib/python3.10/site-packages/psycopg2/extras.py)
+[2026-01-18T13:49:07.873+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T13:49:07.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.075 seconds
+[2026-01-18T13:49:38.162+0000] {processor.py:161} INFO - Started process (PID=62) to work on /opt/airflow/dags/main.py
+[2026-01-18T13:49:38.163+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T13:49:38.167+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:49:38.166+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T13:49:38.192+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T13:49:38.209+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:49:38.208+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6, in <module>
+    from datawarehouse.dwh import staging_table, core_table
+  File "/opt/airflow/dags/datawarehouse/dwh.py", line 1, in <module>
+    from datawarehouse.data_utils import get_conn_cursor,close_conn_cursor,create_schema,create_table,get_video_ids
+  File "/opt/airflow/dags/datawarehouse/data_utils.py", line 2, in <module>
+    from psycopg2.extras import RealdDictCursor
+ImportError: cannot import name 'RealdDictCursor' from 'psycopg2.extras' (/home/airflow/.local/lib/python3.10/site-packages/psycopg2/extras.py)
+[2026-01-18T13:49:38.210+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T13:49:38.229+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.078 seconds
+[2026-01-18T13:50:08.486+0000] {processor.py:161} INFO - Started process (PID=69) to work on /opt/airflow/dags/main.py
+[2026-01-18T13:50:08.488+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T13:50:08.489+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:50:08.489+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T13:50:08.510+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T13:50:08.523+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:50:08.521+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6, in <module>
+    from datawarehouse.dwh import staging_table, core_table
+  File "/opt/airflow/dags/datawarehouse/dwh.py", line 1, in <module>
+    from datawarehouse.data_utils import get_conn_cursor,close_conn_cursor,create_schema,create_table,get_video_ids
+  File "/opt/airflow/dags/datawarehouse/data_utils.py", line 2, in <module>
+    from psycopg2.extras import RealdDictCursor
+ImportError: cannot import name 'RealdDictCursor' from 'psycopg2.extras' (/home/airflow/.local/lib/python3.10/site-packages/psycopg2/extras.py)
+[2026-01-18T13:50:08.523+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T13:50:08.539+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.060 seconds
+[2026-01-18T13:50:38.846+0000] {processor.py:161} INFO - Started process (PID=76) to work on /opt/airflow/dags/main.py
+[2026-01-18T13:50:38.848+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T13:50:38.850+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:50:38.850+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T13:50:38.875+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T13:50:38.894+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:50:38.892+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6, in <module>
+    from datawarehouse.dwh import staging_table, core_table
+  File "/opt/airflow/dags/datawarehouse/dwh.py", line 1, in <module>
+    from datawarehouse.data_utils import get_conn_cursor,close_conn_cursor,create_schema,create_table,get_video_ids
+  File "/opt/airflow/dags/datawarehouse/data_utils.py", line 2, in <module>
+    from psycopg2.extras import RealdDictCursor
+ImportError: cannot import name 'RealdDictCursor' from 'psycopg2.extras' (/home/airflow/.local/lib/python3.10/site-packages/psycopg2/extras.py)
+[2026-01-18T13:50:38.895+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T13:50:38.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.080 seconds
+[2026-01-18T13:51:09.127+0000] {processor.py:161} INFO - Started process (PID=83) to work on /opt/airflow/dags/main.py
+[2026-01-18T13:51:09.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T13:51:09.132+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:51:09.131+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T13:51:09.161+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T13:51:09.175+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:51:09.174+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6, in <module>
+    from datawarehouse.dwh import staging_table, core_table
+  File "/opt/airflow/dags/datawarehouse/dwh.py", line 1, in <module>
+    from datawarehouse.data_utils import get_conn_cursor,close_conn_cursor,create_schema,create_table,get_video_ids
+  File "/opt/airflow/dags/datawarehouse/data_utils.py", line 2, in <module>
+    from psycopg2.extras import RealdDictCursor
+ImportError: cannot import name 'RealdDictCursor' from 'psycopg2.extras' (/home/airflow/.local/lib/python3.10/site-packages/psycopg2/extras.py)
+[2026-01-18T13:51:09.176+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T13:51:09.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.083 seconds
