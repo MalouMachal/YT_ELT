@@ -1,16 +1,16 @@
 from airflow.providers.postgres.hooks.postgres import PostgresHook
-from psycopg2.extras import RealdIDCursor 
+from psycopg2.extras import RealdDictCursor 
 
 table  = "yt_api"
 
 def get_conn_cursor():
-    hook = PostrgresHook(postgres_con_id="postgres_db_yt_elt",database="elt_db")     
+    hook = PostgresHook(postgres_con_id="postgres_db_yt_elt",database="elt_db")     
     #arg1: we already define postgres_con_id in the .yaml that the connection URL can be writter as this 
             #env variable AIRFLOW_CONN_POSTGRES_DB_YT_ELT: 'postgresql://${ELT_DATABASE_USERNAME}:${ELT_DATABASE_PASSWORD}@${POSTGRES_CONN_HOST}:${POSTGRES_CONN_PORT}/${ELT_DATABASE_NAME}'
     #arg2 :we already define database in the .env : ELT_DATABASE_NAME=elt_db
 
     conn = hook.get_conn()
-    cur = conn.cursor(curosr_factory=RealdIDCursor) 
+    cur = conn.cursor(curosr_factory=RealdDictCursor) 
     #arg1 : we use the cursor because it changes how the data is returned when exectue a query using the cursor
         # and the cursor in our case will return the data from SQL query as a python dictionary instead ot the default tuple
         #we dont need it right now but for example :
