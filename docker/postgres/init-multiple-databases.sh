@@ -18,7 +18,6 @@ EOSQL
    echo "  User '$username' and database '$database' created successfully"
 }
 
-M
 # Metadata database
 create_user_and_database $METADATA_DATABASE_NAME $METADATA_DATABASE_USERNAME $METADATA_DATABASE_PASSWORD
 
