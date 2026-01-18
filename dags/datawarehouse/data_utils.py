@@ -1,4 +1,4 @@
-from airflow.providers.postgres.hooks.postgres¶ import PostgresHook
+from airflow.providers.postgres.hooks.postgres import PostgresHook
 from psycopg2.extras import RealdIDCursor 
 
 table  = "yt_api"
