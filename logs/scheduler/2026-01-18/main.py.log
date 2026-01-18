@@ -2412,3 +2412,357 @@ ModuleNotFoundError: No module named 'ap'
 [2026-01-18T12:49:59.992+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:49:59.991+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-01-18T12:50:00.007+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:50:00.007+0000] {dag.py:3954} INFO - Setting next_dagrun for produce_json to 2026-01-17 13:00:00+00:00, run_after=2026-01-18 13:00:00+00:00
 [2026-01-18T12:50:00.019+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.086 seconds
+[2026-01-18T12:50:30.259+0000] {processor.py:161} INFO - Started process (PID=1875) to work on /opt/airflow/dags/main.py
+[2026-01-18T12:50:30.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T12:50:30.269+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:50:30.268+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T12:50:30.312+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T12:50:30.324+0000] {processor.py:840} INFO - DAG(s) 'produce_json' retrieved from /opt/airflow/dags/main.py
+[2026-01-18T12:50:30.363+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:50:30.362+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-18T12:50:30.389+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:50:30.389+0000] {dag.py:3954} INFO - Setting next_dagrun for produce_json to 2026-01-17 13:00:00+00:00, run_after=2026-01-18 13:00:00+00:00
+[2026-01-18T12:50:30.403+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.160 seconds
+[2026-01-18T12:51:00.563+0000] {processor.py:161} INFO - Started process (PID=1882) to work on /opt/airflow/dags/main.py
+[2026-01-18T12:51:00.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T12:51:00.568+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:51:00.568+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T12:51:00.596+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T12:51:00.604+0000] {processor.py:840} INFO - DAG(s) 'produce_json' retrieved from /opt/airflow/dags/main.py
+[2026-01-18T12:51:00.632+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:51:00.632+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-18T12:51:00.651+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:51:00.651+0000] {dag.py:3954} INFO - Setting next_dagrun for produce_json to 2026-01-17 13:00:00+00:00, run_after=2026-01-18 13:00:00+00:00
+[2026-01-18T12:51:00.668+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.112 seconds
+[2026-01-18T12:51:30.969+0000] {processor.py:161} INFO - Started process (PID=1889) to work on /opt/airflow/dags/main.py
+[2026-01-18T12:51:30.971+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T12:51:30.973+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:51:30.973+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T12:51:30.996+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T12:51:31.003+0000] {processor.py:840} INFO - DAG(s) 'produce_json' retrieved from /opt/airflow/dags/main.py
+[2026-01-18T12:51:31.033+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:51:31.032+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-18T12:51:31.055+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:51:31.054+0000] {dag.py:3954} INFO - Setting next_dagrun for produce_json to 2026-01-17 13:00:00+00:00, run_after=2026-01-18 13:00:00+00:00
+[2026-01-18T12:51:31.069+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.111 seconds
+[2026-01-18T12:52:01.335+0000] {processor.py:161} INFO - Started process (PID=1896) to work on /opt/airflow/dags/main.py
+[2026-01-18T12:52:01.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T12:52:01.347+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:52:01.344+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T12:52:01.428+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T12:52:01.454+0000] {processor.py:840} INFO - DAG(s) 'produce_json' retrieved from /opt/airflow/dags/main.py
+[2026-01-18T12:52:01.554+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:52:01.553+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-18T12:52:01.637+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:52:01.637+0000] {dag.py:3954} INFO - Setting next_dagrun for produce_json to 2026-01-17 13:00:00+00:00, run_after=2026-01-18 13:00:00+00:00
+[2026-01-18T12:52:01.681+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.367 seconds
+[2026-01-18T12:52:31.729+0000] {processor.py:161} INFO - Started process (PID=1903) to work on /opt/airflow/dags/main.py
+[2026-01-18T12:52:31.733+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T12:52:31.740+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:52:31.739+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T12:52:31.770+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T12:52:31.780+0000] {processor.py:840} INFO - DAG(s) 'produce_json' retrieved from /opt/airflow/dags/main.py
+[2026-01-18T12:52:31.824+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:52:31.824+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-18T12:52:31.850+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:52:31.850+0000] {dag.py:3954} INFO - Setting next_dagrun for produce_json to 2026-01-17 13:00:00+00:00, run_after=2026-01-18 13:00:00+00:00
+[2026-01-18T12:52:31.952+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.234 seconds
+[2026-01-18T12:53:02.012+0000] {processor.py:161} INFO - Started process (PID=1910) to work on /opt/airflow/dags/main.py
+[2026-01-18T12:53:02.015+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T12:53:02.018+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:53:02.017+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T12:53:02.047+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T12:53:02.057+0000] {processor.py:840} INFO - DAG(s) 'produce_json' retrieved from /opt/airflow/dags/main.py
+[2026-01-18T12:53:02.093+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:53:02.092+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-18T12:53:02.121+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:53:02.120+0000] {dag.py:3954} INFO - Setting next_dagrun for produce_json to 2026-01-17 13:00:00+00:00, run_after=2026-01-18 13:00:00+00:00
+[2026-01-18T12:53:02.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.134 seconds
+[2026-01-18T12:53:32.333+0000] {processor.py:161} INFO - Started process (PID=1917) to work on /opt/airflow/dags/main.py
+[2026-01-18T12:53:32.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T12:53:32.342+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:53:32.342+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T12:53:32.395+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T12:53:32.405+0000] {processor.py:840} INFO - DAG(s) 'produce_json' retrieved from /opt/airflow/dags/main.py
+[2026-01-18T12:53:32.449+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:53:32.449+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-18T12:53:32.471+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:53:32.471+0000] {dag.py:3954} INFO - Setting next_dagrun for produce_json to 2026-01-17 13:00:00+00:00, run_after=2026-01-18 13:00:00+00:00
+[2026-01-18T12:53:32.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.183 seconds
+[2026-01-18T12:54:02.659+0000] {processor.py:161} INFO - Started process (PID=1924) to work on /opt/airflow/dags/main.py
+[2026-01-18T12:54:02.662+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T12:54:02.666+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:54:02.666+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T12:54:02.717+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T12:54:02.730+0000] {processor.py:840} INFO - DAG(s) 'produce_json' retrieved from /opt/airflow/dags/main.py
+[2026-01-18T12:54:02.770+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:54:02.770+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-18T12:54:02.805+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:54:02.804+0000] {dag.py:3954} INFO - Setting next_dagrun for produce_json to 2026-01-17 13:00:00+00:00, run_after=2026-01-18 13:00:00+00:00
+[2026-01-18T12:54:02.821+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.176 seconds
+[2026-01-18T12:54:33.156+0000] {processor.py:161} INFO - Started process (PID=1931) to work on /opt/airflow/dags/main.py
+[2026-01-18T12:54:33.159+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T12:54:33.166+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:54:33.164+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T12:54:33.210+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T12:54:33.220+0000] {processor.py:840} INFO - DAG(s) 'produce_json' retrieved from /opt/airflow/dags/main.py
+[2026-01-18T12:54:33.273+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:54:33.273+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-18T12:54:33.303+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:54:33.303+0000] {dag.py:3954} INFO - Setting next_dagrun for produce_json to 2026-01-17 13:00:00+00:00, run_after=2026-01-18 13:00:00+00:00
+[2026-01-18T12:54:33.330+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.187 seconds
+[2026-01-18T12:54:55.575+0000] {processor.py:161} INFO - Started process (PID=1938) to work on /opt/airflow/dags/main.py
+[2026-01-18T12:54:55.577+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T12:54:55.579+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:54:55.579+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T12:54:55.584+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:54:55.583+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6
+    from datawarehouse.dwh import staging table, core_table
+                                          ^^^^^
+SyntaxError: invalid syntax
+[2026-01-18T12:54:55.584+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T12:54:55.613+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.043 seconds
+[2026-01-18T12:55:05.669+0000] {processor.py:161} INFO - Started process (PID=1939) to work on /opt/airflow/dags/main.py
+[2026-01-18T12:55:05.671+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T12:55:05.673+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:55:05.673+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T12:55:05.701+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T12:55:05.702+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:55:05.701+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6, in <module>
+    from datawarehouse.dwh import staging_table, core_table
+ModuleNotFoundError: No module named 'datawarehouse'
+[2026-01-18T12:55:05.702+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T12:55:05.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.059 seconds
+[2026-01-18T12:55:36.041+0000] {processor.py:161} INFO - Started process (PID=1946) to work on /opt/airflow/dags/main.py
+[2026-01-18T12:55:36.044+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T12:55:36.047+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:55:36.047+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T12:55:36.088+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T12:55:36.090+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:55:36.089+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6, in <module>
+    from datawarehouse.dwh import staging_table, core_table
+ModuleNotFoundError: No module named 'datawarehouse'
+[2026-01-18T12:55:36.090+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T12:55:36.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.095 seconds
+[2026-01-18T12:56:06.346+0000] {processor.py:161} INFO - Started process (PID=1953) to work on /opt/airflow/dags/main.py
+[2026-01-18T12:56:06.349+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T12:56:06.350+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:56:06.350+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T12:56:06.395+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T12:56:06.396+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:56:06.395+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6, in <module>
+    from datawarehouse.dwh import staging_table, core_table
+ModuleNotFoundError: No module named 'datawarehouse'
+[2026-01-18T12:56:06.397+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T12:56:06.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.079 seconds
+[2026-01-18T12:56:35.664+0000] {processor.py:161} INFO - Started process (PID=1960) to work on /opt/airflow/dags/main.py
+[2026-01-18T12:56:35.666+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T12:56:35.667+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:56:35.666+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T12:56:35.716+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T12:56:35.717+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:56:35.716+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6, in <module>
+    from datawarehouse.dwh import staging_table, core_table
+ModuleNotFoundError: No module named 'datawarehouse'
+[2026-01-18T12:56:35.718+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T12:56:35.746+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.099 seconds
+[2026-01-18T12:57:05.956+0000] {processor.py:161} INFO - Started process (PID=1967) to work on /opt/airflow/dags/main.py
+[2026-01-18T12:57:05.958+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T12:57:05.959+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:57:05.959+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T12:57:05.992+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T12:57:05.994+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:57:05.992+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6, in <module>
+    from datawarehouse.dwh import staging_table, core_table
+ModuleNotFoundError: No module named 'datawarehouse'
+[2026-01-18T12:57:05.994+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T12:57:06.025+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.087 seconds
+[2026-01-18T12:57:36.355+0000] {processor.py:161} INFO - Started process (PID=1974) to work on /opt/airflow/dags/main.py
+[2026-01-18T12:57:36.357+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T12:57:36.359+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:57:36.358+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T12:57:36.402+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T12:57:36.403+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:57:36.402+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6, in <module>
+    from datawarehouse.dwh import staging_table, core_table
+ModuleNotFoundError: No module named 'datawarehouse'
+[2026-01-18T12:57:36.404+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T12:57:36.438+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.105 seconds
+[2026-01-18T12:58:06.656+0000] {processor.py:161} INFO - Started process (PID=1981) to work on /opt/airflow/dags/main.py
+[2026-01-18T12:58:06.665+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T12:58:06.667+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:58:06.667+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T12:58:06.703+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T12:58:06.704+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:58:06.703+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6, in <module>
+    from datawarehouse.dwh import staging_table, core_table
+ModuleNotFoundError: No module named 'datawarehouse'
+[2026-01-18T12:58:06.705+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T12:58:06.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.091 seconds
+[2026-01-18T12:58:37.043+0000] {processor.py:161} INFO - Started process (PID=1988) to work on /opt/airflow/dags/main.py
+[2026-01-18T12:58:37.045+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T12:58:37.046+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:58:37.046+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T12:58:37.075+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T12:58:37.076+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:58:37.075+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6, in <module>
+    from datawarehouse.dwh import staging_table, core_table
+ModuleNotFoundError: No module named 'datawarehouse'
+[2026-01-18T12:58:37.076+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T12:58:37.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.054 seconds
+[2026-01-18T12:59:07.428+0000] {processor.py:161} INFO - Started process (PID=1995) to work on /opt/airflow/dags/main.py
+[2026-01-18T12:59:07.430+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T12:59:07.431+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:59:07.431+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T12:59:07.472+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T12:59:07.474+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:59:07.473+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6, in <module>
+    from datawarehouse.dwh import staging_table, core_table
+ModuleNotFoundError: No module named 'datawarehouse'
+[2026-01-18T12:59:07.475+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T12:59:07.507+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.093 seconds
+[2026-01-18T12:59:38.073+0000] {processor.py:161} INFO - Started process (PID=2002) to work on /opt/airflow/dags/main.py
+[2026-01-18T12:59:38.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T12:59:38.078+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:59:38.078+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T12:59:38.220+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T12:59:38.225+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:59:38.222+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6, in <module>
+    from datawarehouse.dwh import staging_table, core_table
+ModuleNotFoundError: No module named 'datawarehouse'
+[2026-01-18T12:59:38.230+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T12:59:38.386+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.558 seconds
+[2026-01-18T12:59:50.936+0000] {processor.py:161} INFO - Started process (PID=2003) to work on /opt/airflow/dags/main.py
+[2026-01-18T12:59:50.937+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T12:59:50.938+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:59:50.938+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T12:59:50.959+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T12:59:50.960+0000] {logging_mixin.py:188} INFO - [2026-01-18T12:59:50.959+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6, in <module>
+    from datawarehouse.dwh import staging_table, core_table
+ModuleNotFoundError: No module named 'datawarehouse'
+[2026-01-18T12:59:50.960+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T12:59:50.973+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.048 seconds
+[2026-01-18T13:00:21.239+0000] {processor.py:161} INFO - Started process (PID=2010) to work on /opt/airflow/dags/main.py
+[2026-01-18T13:00:21.242+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T13:00:21.243+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:00:21.243+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T13:00:21.282+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T13:00:21.284+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:00:21.283+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6, in <module>
+    from datawarehouse.dwh import staging_table, core_table
+ModuleNotFoundError: No module named 'datawarehouse'
+[2026-01-18T13:00:21.284+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T13:00:21.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.077 seconds
+[2026-01-18T13:00:48.533+0000] {processor.py:161} INFO - Started process (PID=2017) to work on /opt/airflow/dags/main.py
+[2026-01-18T13:00:48.536+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T13:00:48.537+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:00:48.537+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T13:00:48.548+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:00:48.547+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6
+    from api/datawarehouse.dwh import staging_table, core_table
+            ^
+SyntaxError: invalid syntax
+[2026-01-18T13:00:48.549+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T13:00:48.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.059 seconds
+[2026-01-18T13:01:18.895+0000] {processor.py:161} INFO - Started process (PID=2024) to work on /opt/airflow/dags/main.py
+[2026-01-18T13:01:18.899+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T13:01:18.900+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:01:18.900+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T13:01:18.907+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:01:18.906+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6
+    from api/datawarehouse.dwh import staging_table, core_table
+            ^
+SyntaxError: invalid syntax
+[2026-01-18T13:01:18.907+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T13:01:18.937+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.062 seconds
+[2026-01-18T13:01:49.169+0000] {processor.py:161} INFO - Started process (PID=2031) to work on /opt/airflow/dags/main.py
+[2026-01-18T13:01:49.171+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T13:01:49.172+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:01:49.172+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T13:01:49.177+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:01:49.177+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6
+    from api/datawarehouse.dwh import staging_table, core_table
+            ^
+SyntaxError: invalid syntax
+[2026-01-18T13:01:49.178+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T13:01:49.196+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.034 seconds
+[2026-01-18T13:02:19.456+0000] {processor.py:161} INFO - Started process (PID=2038) to work on /opt/airflow/dags/main.py
+[2026-01-18T13:02:19.459+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T13:02:19.461+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:02:19.460+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T13:02:19.468+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:02:19.467+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6
+    from api/datawarehouse.dwh import staging_table, core_table
+            ^
+SyntaxError: invalid syntax
+[2026-01-18T13:02:19.468+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T13:02:19.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.045 seconds
+[2026-01-18T13:02:49.760+0000] {processor.py:161} INFO - Started process (PID=2045) to work on /opt/airflow/dags/main.py
+[2026-01-18T13:02:49.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T13:02:49.764+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:02:49.763+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T13:02:49.769+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:02:49.768+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6
+    from api/datawarehouse.dwh import staging_table, core_table
+            ^
+SyntaxError: invalid syntax
+[2026-01-18T13:02:49.769+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T13:02:49.788+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.050 seconds
