@@ -38,7 +38,7 @@ def create_schema(schema):
 
 def created_table(scehma):
 
-    conn, cur get_conn_cursor()
+    conn, cur = get_conn_cursor()
 
     if schema == "staging":
         table_sql = f"""

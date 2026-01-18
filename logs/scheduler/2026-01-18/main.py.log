@@ -3126,3 +3126,82 @@ Traceback (most recent call last):
 SyntaxError: invalid syntax
 [2026-01-18T13:35:52.224+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
 [2026-01-18T13:35:52.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.086 seconds
+[2026-01-18T13:37:08.739+0000] {processor.py:161} INFO - Started process (PID=40) to work on /opt/airflow/dags/main.py
+[2026-01-18T13:37:08.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T13:37:08.750+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:37:08.749+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T13:37:08.825+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T13:37:08.830+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:37:08.829+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6, in <module>
+    from datawarehouse.dwh import staging_table, core_table
+  File "/opt/airflow/dags/datawarehouse/dwh.py", line 1, in <module>
+    from datawarehouse.data_utils import get_conn_cursor,close_conn_cursor,create_schema,create_table,get_video_ids
+  File "/opt/airflow/dags/datawarehouse/data_utils.py", line 41
+    conn, cur get_conn_cursor()
+              ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2026-01-18T13:37:08.831+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T13:37:08.861+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.130 seconds
+[2026-01-18T13:37:39.075+0000] {processor.py:161} INFO - Started process (PID=47) to work on /opt/airflow/dags/main.py
+[2026-01-18T13:37:39.077+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T13:37:39.083+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:37:39.082+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T13:37:39.109+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T13:37:39.117+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:37:39.116+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6, in <module>
+    from datawarehouse.dwh import staging_table, core_table
+  File "/opt/airflow/dags/datawarehouse/dwh.py", line 1, in <module>
+    from datawarehouse.data_utils import get_conn_cursor,close_conn_cursor,create_schema,create_table,get_video_ids
+  File "/opt/airflow/dags/datawarehouse/data_utils.py", line 41
+    conn, cur get_conn_cursor()
+              ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2026-01-18T13:37:39.117+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T13:37:39.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.072 seconds
+[2026-01-18T13:38:09.438+0000] {processor.py:161} INFO - Started process (PID=54) to work on /opt/airflow/dags/main.py
+[2026-01-18T13:38:09.440+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T13:38:09.443+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:38:09.443+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T13:38:09.474+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T13:38:09.478+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:38:09.477+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6, in <module>
+    from datawarehouse.dwh import staging_table, core_table
+  File "/opt/airflow/dags/datawarehouse/dwh.py", line 1, in <module>
+    from datawarehouse.data_utils import get_conn_cursor,close_conn_cursor,create_schema,create_table,get_video_ids
+  File "/opt/airflow/dags/datawarehouse/data_utils.py", line 41
+    conn, cur get_conn_cursor()
+              ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2026-01-18T13:38:09.478+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T13:38:09.497+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.071 seconds
+[2026-01-18T13:38:39.816+0000] {processor.py:161} INFO - Started process (PID=61) to work on /opt/airflow/dags/main.py
+[2026-01-18T13:38:39.819+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2026-01-18T13:38:39.822+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:38:39.822+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2026-01-18T13:38:39.860+0000] {logging_mixin.py:188} INFO - get_playlist_id won't be executed
+[2026-01-18T13:38:39.936+0000] {logging_mixin.py:188} INFO - [2026-01-18T13:38:39.934+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 6, in <module>
+    from datawarehouse.dwh import staging_table, core_table
+  File "/opt/airflow/dags/datawarehouse/dwh.py", line 1, in <module>
+    from datawarehouse.data_utils import get_conn_cursor,close_conn_cursor,create_schema,create_table,get_video_ids
+  File "/opt/airflow/dags/datawarehouse/data_utils.py", line 2, in <module>
+    from psycopg2.extras import RealdIDCursor
+ImportError: cannot import name 'RealdIDCursor' from 'psycopg2.extras' (/home/airflow/.local/lib/python3.10/site-packages/psycopg2/extras.py)
+[2026-01-18T13:38:39.936+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2026-01-18T13:38:39.961+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.168 seconds
