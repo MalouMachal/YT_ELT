@@ -3,7 +3,7 @@ import pendulum
 from datetime import datetime,timedelta
 from api.video_stats import get_playlist_id, get_video_ids, extract_video_data, save_to_json
 
-from api/datawarehouse.dwh import staging_table, core_table
+from datawarehouse.dwh import staging_table, core_table
 
 #define the local timezone
 local_tz= pendulum.timezone("Europe/Paris")
