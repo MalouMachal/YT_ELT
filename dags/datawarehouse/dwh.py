@@ -1,10 +1,4 @@
-from datawarehouse.data_utils import (
-    get_conn_cursor,
-    close_conn_cursor,
-    create_schema,
-    create_table,
-    get_video_ids,
-)
+from datawarehouse.data_utils import get_conn_cursor,close_conn_cursor,create_schema,create_table,get_video_ids
 from datawarehouse.data_loading import load_data
 from datawarehouse.data_modification import insert_rows, update_rows, delete_rows
 from datawarehouse.data_transformation import transform_data
@@ -20,7 +14,6 @@ table = "yt_api"
 def staging_table():
 
     schema = "staging"
-
     conn, cur = None, None
 
     try:
